@@ -40,7 +40,16 @@
     padding: 5px;
 }
 .rowsetting h3{
-    padding: 15px;
+    padding: 0.9rem;
     font-weight: bold;
     font-size: larger;
+}
+
+/* ////////////////PORTFOLIO///////////////////////// */
+.portfolio h1{
+    font-size: 3.2rem;
+    font-weight: bolder ;
+}
+.card{
+    margin-top: 2.5rem;
 }

@@ -21,7 +21,7 @@
     background-color: rgba(0, 0, 0, 0.285);
 }
 .imgsetting{
-    background-color: ;
+    /* background-color: ; */
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 50%;
     height: 6.3rem;
@@ -52,4 +52,68 @@
 }
 .card{
     margin-top: 2.5rem;
+}
+
+/* /////////////////////////////FOOTER////////////////// */
+
+.footer{
+    padding: 0.5rem;
+    /* height:3rem; */
+    background-color: rgb(40, 2, 66);
+    color: white;
+}
+
+/* /////////////////////RESPONSIVE//////////////////////////////// */
+
+@media(min-width: 992px){
+
+}
+@media(min-width: 768px) and (max-width:991px){
+    
+}
+@media(min-width: 575px) and (max-width:767px){
+    
+}
+
+@media(min-width: 460px) and (max-width: 574px){
+    
+}
+
+@media (max-width:459px){
+    .headerset{
+        padding: 5rem;
+        box-sizing: border-box;
+    }
+    .headerset h2{
+        font-size: 1.2rem;
+    }
+    .headerset h1{
+        font-size: 2rem;
+        font-weight: bolder ;
+    }
+    .banner-btn span{
+       display: none;
+    }
+    .ourservices{
+        padding: 1rem 0rrem 1rem;
+    }
+    .ourservices h1{
+        font-size: 1.5rem;
+    }
+    .ourservices p{
+        font-size: 0.8rem;
+    }
+    .ourservices h3{
+        font-size: 1rem;
+    }
+    .portfolio h1{
+        font-size: 1.5rem;
+        font-weight: bolder ;
+    }
+    .portfolio p{
+        font-size: 0.8rem;
+    }
+    .portfolio h4{
+        font-size: 1.1rem;
+    }
 }
